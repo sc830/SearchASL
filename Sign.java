@@ -1,5 +1,13 @@
 
 // Stores sign characteristics in class variables
+// domHandshape: handshape of dominant hand based on handshape codes
+// baseHandshape: handshape of non-dominant (base) hand based on handshape codes
+// twoHanded: "Y" if both hands are used, "N" if one-handed
+// symmetrical: "Y" if symmetrical, "N" if asymmetrical
+// alternating: "Y" if alternating movement, "N" otherwise
+// repeated: "Y" if signed more than once, "N" if unidirectional
+// proximity: String indicating proximity to body
+// match: number of fields that match search query
 
 public class Sign {
     private String domHandshape;        // variable string
